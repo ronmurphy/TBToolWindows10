@@ -1,0 +1,11 @@
+C:\Users\BradM\source\repos\TBTool\bin\Debug\TBTool.exe.config
+C:\Users\BradM\source\repos\TBTool\bin\Debug\TBTool.exe
+C:\Users\BradM\source\repos\TBTool\bin\Debug\TBTool.pdb
+C:\Users\BradM\source\repos\TBTool\bin\Debug\TBTool.xml
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.vbprojAssemblyReference.cache
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.Form1.resources
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.Resources.resources
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.vbproj.GenerateResource.cache
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.exe
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.xml
+C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.pdb
