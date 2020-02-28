@@ -75,8 +75,25 @@ Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         EnableTaskbarStyle()
     End Sub
+    Private Sub Form1_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
+        If Me.WindowState = FormWindowState.Minimized Then
+            NotifyIcon1.Visible = True
+            Me.Hide()
+            NotifyIcon1.BalloonTipText = "Hi from right system tray"
+            NotifyIcon1.ShowBalloonTip(500)
+        End If
+    End Sub
 
 
+    Sub ToggleHide()
+        If Me.WindowState = FormWindowState.Normal Then
+            Me.ShowInTaskbar = False
+            Me.WindowState = FormWindowState.Minimized
+        Else
+            Me.ShowInTaskbar = True
+            Me.WindowState = FormWindowState.Normal
+        End If
+    End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         If Me.CheckBox1.Checked = True Then
@@ -113,5 +130,11 @@ Public Class Form1
 
     Private Sub Form1_Closed(sender As Object, e As EventArgs) Handles Me.Closed
         ctb.ResetAll()
+    End Sub
+
+    Private Sub NotifyIcon1_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.DoubleClick
+        Me.Show()
+        Me.WindowState = FormWindowState.Normal
+        NotifyIcon1.Visible = False
     End Sub
 End Class

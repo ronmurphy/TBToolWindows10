@@ -9,3 +9,14 @@ C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.vbproj.GenerateResource.cach
 C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.exe
 C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.xml
 C:\Users\BradM\source\repos\TBTool\obj\Debug\TBTool.pdb
+C:\Users\Administrator\Source\Repos\TBToolWindows10\bin\Debug\TBTool.exe.config
+C:\Users\Administrator\Source\Repos\TBToolWindows10\bin\Debug\TBTool.exe
+C:\Users\Administrator\Source\Repos\TBToolWindows10\bin\Debug\TBTool.pdb
+C:\Users\Administrator\Source\Repos\TBToolWindows10\bin\Debug\TBTool.xml
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.vbprojAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.Form1.resources
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.Resources.resources
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.vbproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.exe
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.xml
+C:\Users\Administrator\Source\Repos\TBToolWindows10\obj\Debug\TBTool.pdb

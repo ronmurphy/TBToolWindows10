@@ -22,10 +22,13 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.SuspendLayout()
         '
         'ComboBox1
@@ -34,15 +37,15 @@ Partial Class Form1
         Me.ComboBox1.Items.AddRange(New Object() {"Transparent", "Arcrylic", "Blur", "None"})
         Me.ComboBox1.Location = New System.Drawing.Point(12, 18)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(133, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(94, 21)
         Me.ComboBox1.TabIndex = 0
         Me.ComboBox1.Text = "Blur"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 45)
+        Me.Button1.Location = New System.Drawing.Point(112, 18)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(133, 23)
+        Me.Button1.Size = New System.Drawing.Size(101, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Change Style"
         Me.Button1.UseVisualStyleBackColor = True
@@ -50,7 +53,7 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(12, 107)
+        Me.CheckBox1.Location = New System.Drawing.Point(112, 45)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(117, 17)
         Me.CheckBox1.TabIndex = 3
@@ -60,24 +63,31 @@ Partial Class Form1
         'CheckBox2
         '
         Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(12, 84)
+        Me.CheckBox2.Location = New System.Drawing.Point(12, 45)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(89, 17)
         Me.CheckBox2.TabIndex = 4
         Me.CheckBox2.Text = "Center Tasks"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
+        'NotifyIcon1
+        '
+        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
+        Me.NotifyIcon1.Text = "TBTool"
+        Me.NotifyIcon1.Visible = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(171, 153)
+        Me.ClientSize = New System.Drawing.Size(225, 84)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "TBTool"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -87,4 +97,5 @@ Partial Class Form1
     Friend WithEvents Button1 As Button
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents NotifyIcon1 As NotifyIcon
 End Class
